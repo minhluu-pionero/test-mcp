@@ -11,7 +11,7 @@
 
 ## II. Kiến trúc tổng quát của MCP
 
-![Kiến trúc MCP](image.png)
+![Kiến trúc MCP](images/image.png)
 
 ### 1. MCP Hosts
 
@@ -196,10 +196,32 @@ claude mcp add antd antd mcp
 claude mcp list
 ```
 
-![MCP list](image-1.png)
+![MCP list](images/image-1.png)
 
 **b. Kiểm tra đọc thông tin components của antd**
 
 Ví dụ: List antd components
 
 ![Antd components](image-3.png)
+
+## IV. Demo Cuscom MCP
+
+### 1. Setup mcp for local project
+
+```bash
+claude --mcp-config ./.claude/mcp.config.json
+```
+
+### 2. Check MCP connected
+- MCP demo đã kết nối
+![alt text](images/image-4.png)
+
+### 3. Test MCP
+> Prompt: "Thời gian hiện tại "
+
+![alt text](images/image-5.png)
+
+<video width="600" controls>
+  <source src="./images/demo-mcp.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
